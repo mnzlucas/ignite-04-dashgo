@@ -57,7 +57,7 @@ export default function SignIn() {
               type="password"
               label="Password"
               error={errors.password}
-              {...register('email')}
+              {...register('password')}
             />
           
         </Stack>
